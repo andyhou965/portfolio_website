@@ -1,3 +1,1 @@
-## Personal Portfolio
-
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+## Build Personal Portfolio Website
