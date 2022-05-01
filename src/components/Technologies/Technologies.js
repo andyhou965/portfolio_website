@@ -1,5 +1,9 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiDatabase } from "react-icons/di";
+
+import { AiOutlineCloudServer } from "react-icons/ai";
+import { RiMiniProgramLine } from "react-icons/ri";
+import { GiArtificialIntelligence, GiBrain } from "react-icons/gi";
 import {
   Section,
   SectionDivider,
@@ -17,37 +21,47 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle main>Technologies</SectionTitle>
-    <SectionText>Technologies Description</SectionText>
+    <SectionTitle main>Technical Stack</SectionTitle>
+    {/* <SectionText>Technologies Description</SectionText> */}
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <RiMiniProgramLine size="4rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Programming</ListTitle>
+          <ListParagraph>Python, PySpark, SQL, HiveQL</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <GiArtificialIntelligence size="4rem" />
+        <ListContainer>
+          <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Scikit-Learn, GBDT&GBRT, Xgboost, Complex Model Structure(Ensemble,
+            Hierarchical...)
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <GiBrain size="4rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Deep Learning</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+            TensorFlow, Keras, Complex Network Structure(Wide&Deep, ResNet...)
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        <DiDatabase size="4rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
+          <ListTitle>Big Data</ListTitle>
+          <ListParagraph>Hadoop, Hive, Spark</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiOutlineCloudServer size="4rem" />
+        <ListContainer>
+          <ListTitle>Cloud Computing</ListTitle>
+          <ListParagraph>AWS, S3, EC2, SSE, SageMaker, DynamoDB…</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
