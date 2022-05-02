@@ -16,10 +16,11 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Master in Computer Engineering, mainly research Data Science and Machine
-        Learning. 10+ years of work experience in Machine Learning, Deep
-        Learning, Forecasting, Data Lake, Recommendation, Knowledge Graph, Big
-        Data Architecture.
+        <b style={{ color: "#ffffff" }}>Master</b> in Computer Engineering,
+        mainly research Data Science and Machine Learning.{" "}
+        <b style={{ color: "#ffffff" }}>10+ years</b> of work experience in
+        Machine Learning, Deep Learning, Forecasting, Data Lake, Recommendation,
+        Knowledge Graph, Big Data Architecture.
       </SectionText>
       <Button onClick={() => (window.location = "#about")}>Learn More</Button>
     </LeftSection>

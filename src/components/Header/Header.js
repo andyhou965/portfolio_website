@@ -41,13 +41,13 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#tech">
+          <NavLink>Technical Stack</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technical Stack</NavLink>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       {/* <li>

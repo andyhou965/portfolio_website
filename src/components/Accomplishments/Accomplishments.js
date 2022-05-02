@@ -18,8 +18,8 @@ const data = [
 ];
 
 const Accomplishments = () => (
-  <Section>
-    <SectionTitle>Personal Accomplishments</SectionTitle>
+  <Section nopadding>
+    <SectionTitle>Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

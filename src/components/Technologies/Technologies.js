@@ -76,11 +76,9 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    <Section>
-      <BlogCard>
-        <Img src="/images/technical_stack.png" />
-      </BlogCard>
-    </Section>
+    <BlogCard>
+      <Img src="/images/technical_stack.png" />
+    </BlogCard>
   </Section>
 );
 
