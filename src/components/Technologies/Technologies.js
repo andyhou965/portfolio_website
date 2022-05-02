@@ -1,7 +1,7 @@
 import React from "react";
 import { DiDatabase } from "react-icons/di";
 
-import { AiOutlineCloudServer } from "react-icons/ai";
+import { AiOutlineCloudServer, AiOutlineBarChart } from "react-icons/ai";
 import { RiMiniProgramLine } from "react-icons/ri";
 import { GiArtificialIntelligence, GiBrain } from "react-icons/gi";
 import {
@@ -16,6 +16,8 @@ import {
   ListItem,
   ListParagraph,
   ListTitle,
+  BlogCard,
+  Img,
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -29,6 +31,15 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Programming</ListTitle>
           <ListParagraph>Python, PySpark, SQL, HiveQL</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiOutlineBarChart size="4rem" />
+        <ListContainer>
+          <ListTitle>Data Science</ListTitle>
+          <ListParagraph>
+            NumPy, Pandas, SciPy, Data Visualization(Matplotlib, Plotly...)
+          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -54,7 +65,7 @@ const Technologies = () => (
         <DiDatabase size="4rem" />
         <ListContainer>
           <ListTitle>Big Data</ListTitle>
-          <ListParagraph>Hadoop, Hive, Spark</ListParagraph>
+          <ListParagraph>Hadoop, Hive, Spark, MongoDB, RDB</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -65,6 +76,11 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
+    <Section>
+      <BlogCard>
+        <Img src="/images/technical_stack.png" />
+      </BlogCard>
+    </Section>
   </Section>
 );
 

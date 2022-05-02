@@ -5,7 +5,7 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { Box, Boxes, BoxNum, BoxText } from "./AccomplishmentsStyles";
 
 const data = [
   { number: "20", text: "Enterprise-Level Projects" },
@@ -17,9 +17,9 @@ const data = [
   { number: "300", text: "Student and employee training" },
 ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <Section>
-    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -31,4 +31,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Accomplishments;

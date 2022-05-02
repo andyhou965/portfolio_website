@@ -51,19 +51,19 @@ const Header = () => (
         </Link>
       </li>
       {/* <li>
-        <Link href="#acomplishments">
-          <NavLink>Acomplishments</NavLink>
+        <Link href="#accomplishments">
+          <NavLink>Accomplishments</NavLink>
         </Link>
       </li> */}
     </Div2>
     <Div3>
-      <SocialIcons href="#">
+      <SocialIcons href="https://github.com/andyhou965?tab=repositories">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://www.linkedin.com/in/junjie-h-487a301ab/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://www.youtube.com/channel/UCf3jVTmrt8ihI5GudpBPXZg">
         <AiFillYoutube size="3rem" />
       </SocialIcons>
     </Div3>
