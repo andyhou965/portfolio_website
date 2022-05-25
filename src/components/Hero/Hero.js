@@ -18,7 +18,7 @@ const Hero = (props) => (
       <SectionText>
         <b style={{ color: "#ffffff" }}>Master</b> in Computer Engineering,
         mainly research Data Science and Machine Learning.{" "}
-        <b style={{ color: "#ffffff" }}>10+ years</b> of work experience in
+        <b style={{ color: "#ffffff" }}>11+ years</b> of work experience in
         Machine Learning, Deep Learning, Forecasting, Data Lake, Recommendation,
         Knowledge Graph, Big Data Architecture.
       </SectionText>
