@@ -1,12 +1,22 @@
 export const projects = [
   {
+    title: "Data Visualization",
+    description:
+      "Bringing users relevant useful information in a visual and efficient way, without the users having to seek out the information for themselves.",
+    image: "/images/data_visualization.jpeg",
+    tags: [],
+    source: "#",
+    visit: "http://127.0.0.1:8001",
+    id: 2,
+  },
+  {
     title: "Price Optimization",
     description:
-      "Using historical data to identify the optimal price or a quantity of a given product or a service that maximizes the company’s profitability",
+      "Using historical data to identify the optimal price or a quantity of a given product or a service that maximizes the company's profitability",
     image: "/images/price_optimization.jpeg",
     tags: [],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/andyhou965/price-optimization",
+    visit: "http://127.0.0.1:8002",
     id: 0,
   },
   {
@@ -15,19 +25,9 @@ export const projects = [
       "Understanding and interpreting customer data, behaviors, and feedback can help to improve product development and customer support.",
     image: "/images/customer_insight2.jpeg",
     tags: [],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/andyhou965/customer-insight-app",
+    visit: "http://127.0.0.1:8003",
     id: 1,
-  },
-  {
-    title: "Automated Reporting",
-    description:
-      "Bringing users relevant useful information in a timely and efficient way, without the users having to seek out the information for themselves.",
-    image: "/images/automated_reporting.jpeg",
-    tags: [],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
   },
   {
     title: "AI Assistant",
@@ -35,8 +35,8 @@ export const projects = [
       "Help companies replace human tasks by understanding and performing tasks given by users in natural language.",
     image: "/images/ai_assistant.jpeg",
     tags: [],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/andyhou965/ai-assistant",
+    visit: "#",
     id: 3,
   },
   {
@@ -45,8 +45,8 @@ export const projects = [
       "Based on years of project experience, output some general AI solution architecture, such as Forecasting, Recommendation, and Knowledge Graph.",
     image: "/images/ai_solutions.jpeg",
     tags: [],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "#",
+    visit: "#",
     id: 4,
   },
 ];
