@@ -1,14 +1,14 @@
 export const projects = [
-  {
-    title: "Data Visualization",
-    description:
-      "Bringing users relevant useful information in a visual and efficient way, without the users having to seek out the information for themselves.",
-    image: "/images/data_visualization.jpeg",
-    tags: [],
-    source: "#",
-    visit: "http://127.0.0.1:8001",
-    id: 2,
-  },
+  //   {
+  //     title: "Data Visualization",
+  //     description:
+  //       "Bringing users relevant useful information in a visual and efficient way, without the users having to seek out the information for themselves.",
+  //     image: "/images/data_visualization.jpeg",
+  //     tags: [],
+  //     source: "#",
+  //     visit: "http://127.0.0.1:8001",
+  //     id: 2,
+  //   },
   {
     title: "Price Optimization",
     description:
@@ -16,7 +16,7 @@ export const projects = [
     image: "/images/price_optimization.jpeg",
     tags: [],
     source: "https://github.com/andyhou965/price-optimization",
-    visit: "http://127.0.0.1:8002",
+    visit: "https://medium.com/@andyhou965/price-optimization-bdbea23497fc",
     id: 0,
   },
   {
@@ -26,28 +26,41 @@ export const projects = [
     image: "/images/customer_insight2.jpeg",
     tags: [],
     source: "https://github.com/andyhou965/customer-insight-app",
-    visit: "http://127.0.0.1:8003",
+    visit:
+      "https://medium.com/@andyhou965/applying-ai-to-help-companys-growth-e5ba87d250ec",
     id: 1,
   },
+  //   {
+  //     title: "AI Assistant",
+  //     description:
+  //       "Help companies replace human tasks by understanding and performing tasks given by users in natural language.",
+  //     image: "/images/ai_assistant.jpeg",
+  //     tags: [],
+  //     source: "https://github.com/andyhou965/ai-assistant",
+  //     visit: "#",
+  //     id: 3,
+  //   },
   {
-    title: "AI Assistant",
+    title: "Digital Transformation",
     description:
-      "Help companies replace human tasks by understanding and performing tasks given by users in natural language.",
-    image: "/images/ai_assistant.jpeg",
-    tags: [],
-    source: "https://github.com/andyhou965/ai-assistant",
-    visit: "#",
-    id: 3,
-  },
-  {
-    title: "AI Solutions",
-    description:
-      "Based on years of project experience, output some general AI solution architecture, such as Forecasting, Recommendation, and Knowledge Graph.",
-    image: "/images/ai_solutions.jpeg",
+      "Digital Transformation” is actually the reshaping of business processes to make them more adaptable by default to a more comprehensive online environment.",
+    image: "/images/digital_transformation2.jpeg",
     tags: [],
     source: "#",
-    visit: "#",
+    visit:
+      "https://medium.com/@andyhou965/how-do-enterprises-do-digital-transformation-nowadays-7ea2da528a22",
     id: 4,
+  },
+  {
+    title: "Forecasting with AI",
+    description:
+      "An AI-based forecasting solution uses an ensemble of Machine Learning algorithms to optimize forecasts, then selects a model that's uniquely suited for the business.",
+    image: "/images/forecasting.jpeg",
+    tags: [],
+    source: "#",
+    visit:
+      "https://medium.com/@andyhou965/how-do-enterprises-do-digital-transformation-nowadays-7ea2da528a22",
+    id: 5,
   },
 ];
 

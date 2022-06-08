@@ -1,6 +1,10 @@
 import React from "react";
-import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from "react-icons/ai";
-
+import {
+  AiFillGithub,
+  AiFillYoutube,
+  AiFillLinkedin,
+  AiFillMediumSquare,
+} from "react-icons/ai";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -36,6 +40,9 @@ const Footer = () => {
         <SocialContainer>
           <SocialIcons href="https://github.com/andyhou965?tab=repositories">
             <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://medium.com/@andyhou965">
+            <AiFillMediumSquare size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/junjie-h-487a301ab/">
             <AiFillLinkedin size="3rem" />
